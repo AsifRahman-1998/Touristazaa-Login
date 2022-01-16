@@ -1,0 +1,48 @@
+html,body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: grey;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	animation: changingpicture;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+@keyframes changingpicture{
+	0%{background-image: url(https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/37880021.jpg?k=769384f991861ed91df3fa138612ad5ca480b30fd46c1e994ddfe742488deb26&o=);}
+	25%{background-image: url(https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/112/517/209/DACHB_6066419757_S.jpg);}
+    50%{background-image: url(https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/112/517/203/DACHB_6066419310_S.jpg);}
+    75%{background-image: url(https://images.trvl-media.com/hotels/11000000/10580000/10578000/10577932/649b7896_z.jpg);}
+    100%{background-image: url(https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/37880021.jpg?k=769384f991861ed91df3fa138612ad5ca480b30fd46c1e994ddfe742488deb26&o=);}
+}
+
+.main{
+    margin: 0;
+    padding-left:10px;
+    height: 800px;
+	width: 600px;
+	background-color: white;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+
+}
+.upper{
+	height: 300px;
+	width: 600px;
+	background-color: white;
+	background-image: url(https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/158134014_185345923394512_1529797981208906747_n.png?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeH0_KhcsAZ7EG33uE3pWK6BpRkYSRCU78GlGRhJEJTvwaJvJzNF7RJlh0BzofWzE86pNLqoKJh4Q7F1oh7aX590&_nc_ohc=wUbJxpZUW-8AX9BW7hj&_nc_ht=scontent.fdac5-1.fna&oh=00_AT9LPfDMxcmeFjDuSZOYbHJuXibZfe7skB2aMPz3C2o8hA&oe=620B32F6);
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+	background-position: center;
+}
+
